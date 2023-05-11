@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Btn  */
+
+
+.sir{
+    @apply  text-white 
+    transform hover:scale-105 
+    hover:bg-green-400 
+    hover:text-black 
+    transition hover:0.10s
+}
+
+.sir-red{
+   @apply border 
+    p-2 
+    bg-red-500
+}
+
+
+
+
+
+
+
+
